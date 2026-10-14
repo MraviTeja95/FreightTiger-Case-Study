@@ -1,7 +1,7 @@
 ================================================================================
 FREIGHT TIGER CASE STUDY - REPRODUCIBILITY REPORT
 ================================================================================
-Generated at: 2026-10-14 23:47:50
+Generated at: 2026-10-15 00:06:34
 Total runs evaluated: 3
 
 SHA-256 Checksums for output/final_output.csv:
