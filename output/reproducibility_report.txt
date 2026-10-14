@@ -1,0 +1,31 @@
+================================================================================
+FREIGHT TIGER CASE STUDY - REPRODUCIBILITY REPORT
+================================================================================
+Generated at: 2026-10-14 23:47:50
+Total runs evaluated: 3
+
+SHA-256 Checksums for output/final_output.csv:
+  Run 1: 9b6433b53087263aa7149ed73b0fcd57b7f7b686869fadb7875953b18fd76d0f
+  Run 2: 9b6433b53087263aa7149ed73b0fcd57b7f7b686869fadb7875953b18fd76d0f
+  Run 3: 9b6433b53087263aa7149ed73b0fcd57b7f7b686869fadb7875953b18fd76d0f
+  Byte-for-byte identical across all 3 runs: True
+
+SHA-256 Checksums for output/flagged_anomalies.csv:
+  Run 1: 322ac9bcdaa12ea99067ade5bb46d0f39533d782d9de4e3feae4aef3d427bf56
+  Run 2: 322ac9bcdaa12ea99067ade5bb46d0f39533d782d9de4e3feae4aef3d427bf56
+  Run 3: 322ac9bcdaa12ea99067ade5bb46d0f39533d782d9de4e3feae4aef3d427bf56
+  Byte-for-byte identical across all 3 runs: True
+
+Unified Diff Analysis:
+  Diff between Run 1 and Run 2: None (0 line differences)
+  Diff between Run 2 and Run 3: None (0 line differences)
+  Row-by-row field value mismatches across runs: 0
+
+Verified Invariant Counts:
+  - Total records processed: 728 (expected: 728)
+  - Normal weeks (flagged == 'No'): 709 (expected: 709)
+  - Unexplained anomalies (flagged == 'Yes'): 16 (expected: 16)
+  - Justified anomalies (flagged == 'No (justified)'): 3 (expected: 3)
+  - Total anomaly events: 19 (expected: 19)
+  - Human-review queue (output/flagged_anomalies.csv): 16 records
+================================================================================
